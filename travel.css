@@ -1,0 +1,73 @@
+header {
+    height: 400px;
+    width: 100%;
+    background-color: skyblue;
+}
+footer {
+    
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
+    text-shadow:  10px 5px 0 rgba(76, 7, 27, 0.1); /*0-1 */
+    text-align: center;
+
+}
+.logo{
+  height: 150px;
+  width: 300px;
+}
+
+
+#name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 10px 6px 6px rgba(78, 21, 247, 0.4) , 10px 5px 0 rgba(76, 7, 27, 0.1); /*0-1 */
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.caption {
+  color: #121212;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.count {
+  color: #080808;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
