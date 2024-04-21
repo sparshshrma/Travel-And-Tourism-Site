@@ -1,0 +1,1 @@
+Welcome to "Travel and Tourism" repo. In this project we made a live travel slode show for the customer showing different destinations. It was a learning project in which we also made  logo for the website using CSS and added shadow and highlits.
